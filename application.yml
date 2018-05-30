@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+    - dev     #激活的开发环境
+---
+spring: 
+  profiles: dev   #开发环境
+  application:
+    name: microservicecloud-config-kero-dev
+---
+spring:
+  profiles: test  #测试环境
+  application:
+    name: microservicecloud-config-kero-test
+
+#请保存为UTF-8格式
