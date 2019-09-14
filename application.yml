@@ -7,6 +7,9 @@ spring:
   profiles: dev   #开发环境
   application:
     name: microservicecloud-config-kero-dev
+user:
+  name: zhangsan
+  password: 123456
 ---
 spring:
   profiles: test  #测试环境
