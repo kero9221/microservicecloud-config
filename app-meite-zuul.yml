@@ -28,3 +28,7 @@ swagger-resource:
       name: api-meite-member
       location: /app-meite-member/v2/api-docs
       version: 2.0
+    - resrouce:
+      name: api-meite-user
+      location: /app-meite-user/v2/api-docs
+      version: 2.0      
