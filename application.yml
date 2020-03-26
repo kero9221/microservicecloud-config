@@ -5,15 +5,15 @@ spring:
 ---
 spring: 
   profiles: dev   #开发环境
-  application:
-    name: microservicecloud-config-kero-dev
+  #application:
+  #  name: microservicecloud-config-kero-dev
 user:
   name: zhangsan
   password: 123456
 ---
 spring:
   profiles: test  #测试环境
-  application:
-    name: microservicecloud-config-kero-test
+  #application:
+  #  name: microservicecloud-config-kero-test
 
 #请保存为UTF-8格式
