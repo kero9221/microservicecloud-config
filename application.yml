@@ -8,7 +8,7 @@ spring:
   #application:
   #  name: microservicecloud-config-kero-dev
 user:
-  name: Jack
+  name: Tom
   password: 123456
 ---
 spring:
